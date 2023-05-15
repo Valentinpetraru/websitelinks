@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #14181B;
+}
+
+@font-face {
+  font-family: 'Roboto-regular';
+  src: url('assets/fonts/roboto-v15-latin-regular.ttf');
+}
+
+@font-face {
+  font-family: 'Roboto-bold';
+  src: url('assets/fonts/roboto-v15-latin-700.ttf');
+}
+
+@font-face {
+  font-family: 'PT-Sans';
+  src: url('assets/fonts/PTSans-Italic.ttf');
+}
+
+@font-face {
+  font-family: 'PT-SansBold';
+  src: url('assets/fonts/PTSans-BoldItalic.ttf');
+}
+
+@font-face {
+  font-family: 'PT-SansItalic';
+  src: url('assets/fonts/PTSans-Italic.ttf');
+}
